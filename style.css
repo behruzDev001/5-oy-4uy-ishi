@@ -1,0 +1,145 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+#cardText {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: #45a049;
+}
+
+
+#cardsContainer{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20px;
+gap: 15px;
+max-width: 800px;
+}
+
+.card{
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card p{
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card.deleteBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card.deleteBtn:hover {
+    background-color: #e53935;
+}
+
+
+#cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+    max-width: 800px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.card .btn-delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.card .btn-delete:hover {
+    background-color: #ff1a1a;
+}
+
+
+
